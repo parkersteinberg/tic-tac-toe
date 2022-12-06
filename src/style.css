@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&display=swap');
+
+body {
+  color: #0891b2;
+  margin: 0;
+  background-color: #ecfeff;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  color: #0891b2;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.container {
+  padding: 2.5% 2.5%;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.turn {
+  margin: 40px;
+  font-size: large;
+}
+
+.row{
+  display:flex;
+  /* gap:4px; */
+}
+
+.button{
+  height:100px;
+  width:100px;
+  color: #22d3ee;
+  border: 2px solid #a8a29e;
+  background-color:#cffafe;
+  border-radius:16px;
+  margin: 1px;
+  font-size: 40px;
+}
+
+.button:hover{
+  background-color: #a5f3fc;
+}
+
+.button:active{
+  background-color:#67e8f9;
+}
+
+.restart-button {
+  /* color: #78716c; */
+  border: 2px solid #a8a29e;
+  background-color:#cffafe;
+  border-radius:16px;
+  height: 30px;
+  width:60px;
+  color: #0891b2;
+}
+
+.restart-button:hover{
+  background-color:#a5f3fc;
+}
+
+.restart-button:active{
+  background-color:darkgray;
+  transform: scale(0.95)
+}
+
+.footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding-bottom: 20px;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #0891b2;
+  padding-top: 10px;
+}
+
+.footer > a:hover {
+  text-decoration: underline;
+  color: #06b6d4;
+}
